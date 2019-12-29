@@ -1,0 +1,342 @@
+html
+{
+background: black;
+color: #18ff1b;
+font-family: Arial;
+
+}
+
+a:link{color:#18ff1b;}
+a:visited{color:#18ff1b;}
+a:hover{color:#18ff1b;}
+
+
+nav a
+{
+text-decoration: none;
+display: inline;
+padding: 2%;
+
+}
+	
+	.wrapper
+	{
+      display:grid;
+      grid-template-columns:1fr 2fr 4fr 1fr;
+	  grid-template-rows: 1fr 4fr 1fr 1fr;
+      justify-items:normal;
+      align-items:normal;
+    }
+
+	
+	.wrapr
+	{
+	  display:grid;
+      grid-template-columns:1fr 4fr 1fr 1fr;
+	  grid-template-rows: 1fr 7fr 1fr;
+      justify-items:normal;
+      align-items:normal;
+	}
+	
+	
+	
+	.wrapradio
+	{
+	  display:grid;
+      grid-template-columns:1fr 4fr 1fr 1fr;
+	  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      justify-items:normal;
+      align-items:normal;
+	}
+	
+	
+	
+	
+	.wrapr > div
+	{
+      background: black;
+     
+    }
+    .wrapr > div:nth-child(odd){
+      background: black;
+    }
+	
+	
+    .wrapper > div
+	{
+      background: black;
+     
+    }
+    .wrapper > div:nth-child(odd){
+      background: black;
+    }
+
+	
+    .box2
+	{
+       border: 1px solid black;
+       grid-column:1;
+	   grid-row: 1;   
+    }
+	
+	.box1
+	{
+      border: 1px solid black;
+      grid-column: 2/4;
+      grid-row: 1;
+	  display: inline;
+	  list-style-type: none;
+	  text-align: center;
+	  font-family: Arial;
+	  font-weight: bold;
+	  font-size: 1.5em;
+	  margin: center;
+	  
+    }
+	
+	.box4
+	{
+       border: 1px solid black;
+	   grid-column:4;
+	   grid-row: 1;
+    }
+	
+	
+	 .box5
+	 {
+		 border: 1px solid black;
+		 grid-column:1/3;
+		 grid-row: 2/4;
+		 font-family: Arial;
+	     font-size: 2em;
+		 justify-items: left;
+	 }
+	 
+
+	.box6
+	{
+		 border: 1px solid black;
+		 grid-column:3/5;
+		 grid-row: 2;
+		 font-family: Arial;
+	     font-size: 2em;
+	}
+	
+	.box7
+	{
+		 border: 1px solid black;
+		 grid-column:3/5;
+		 grid-row: 3/4;
+		 font-family: Arial;
+	     font-size: 2.5em;
+		 text-align: center;
+	}
+	
+	.box3
+	{
+      border: 1px solid black;
+      grid-column: 1/5;
+	  grid-row: 4/5;
+	   
+    }
+
+    .resume
+    {
+	 grid-column: 1/4;
+	 grid-row: 2/4;
+	 
+	
+	
+    }
+ 
+    .dates
+	{
+	 grid-column: 4;
+	 grid-row: 2/4;
+     font-size: 1em;
+	 text-align: center;
+	}		
+ 
+ 
+	.station1
+	{
+	 grid-column: 1;
+	 grid-row: 2;
+	
+	 
+	}
+   
+	.station1Name
+	{
+     grid-column: 2/5;
+	 grid-row: 2;
+	 text-align: center;
+	 margin-top: 20%;
+	 font-size: 3em;
+	 
+	}
+    
+ 
+	.station2
+	{
+	 grid-column: 1;
+	 grid-row: 3;
+	 
+	 
+	}
+   
+	.station2Name
+	{
+     grid-column: 2/5;
+	 grid-row: 3;
+	 text-align: center;
+	 margin-top: 20%;
+	 font-size: 3em;
+	}
+	
+	.station3
+	{
+	 grid-column: 1;
+	 grid-row: 4;
+	}
+   
+	.station3Name
+	{
+     grid-column: 2/5;
+	 grid-row: 4;
+	 text-align: center;
+	 margin-top: 20%;
+	 font-size: 3em;
+	}
+	
+    .station4
+	{
+	 grid-column: 1;
+	 grid-row: 5;
+	}
+   
+	.station4Name
+	{
+     grid-column: 2/5;
+	 grid-row: 5;
+	 text-align: center;
+	 margin-top: 20%;
+	 font-size: 3em;
+	}
+	
+	.station5
+	{
+	 grid-column: 1;
+	 grid-row: 6;
+	}
+   
+	.station5Name
+	{
+     grid-column: 2/5;
+	 grid-row: 6;
+	 text-align: center;
+	 margin-top: 20%;
+	 font-size: 3em;
+	}
+	
+	.station6
+	{
+	 grid-column: 1;
+	 grid-row: 7;
+	}
+   
+	.station6Name
+	{
+     grid-column: 2/5;
+	 grid-row: 7;
+	 text-align: center;
+	 margin-top: 20%;
+	 font-size: 3em;
+	}
+	
+	
+	
+	
+	.footRadio
+	{
+      border: 1px solid black;
+      grid-column: 1/5;
+	  grid-row: 8;
+	}
+	
+	
+	.map
+	{
+	  grid-column: 2/4;
+	  grid-row: 3/4;
+	}
+	
+	.butt
+	{
+	  grid-column: 2/4;
+	  grid-row: 2/4;
+	}
+	
+	.pics
+	{
+		grid-column: 2/4;
+	  grid-row: 2/4;
+		
+	}
+	
+	
+	
+	
+	
+.b
+{
+
+    background-color: black;
+    border: none;
+	color: #18ff1b;
+	cursor: pointer;
+	font-family: Arial;
+	font-size: 1.5em;
+	
+	
+}
+	
+	h1
+	{
+	 text-align: center;
+	 text-decoration: underline;
+	 margin: 0;
+	 padding-left: 20%;
+	}
+	
+   h3
+   {
+	margin: 0;
+	text-decoration: underline;
+   }
+	
+ 
+	nav ul 
+   {
+	list-style-type: none;   
+	margin: center;
+	margin-top: 7%;
+	margin-right: 3%;
+   }
+	
+	#peep
+	{
+	margin-top: 5%;
+	}
+	
+    ul
+	{
+	margin: 0;
+	}
+	
+	p
+	{
+	margin: 0;	
+	text-align: center;
+	padding-left: 20%;
+	}		
